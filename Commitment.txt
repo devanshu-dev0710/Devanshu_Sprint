@@ -1,2 +1,3 @@
 I promise to solve 12 DSA problems by 20 December.
 Task 1: Setup Java Environment -DONE
+Task 2: Two sum and Stock problem -DONE
