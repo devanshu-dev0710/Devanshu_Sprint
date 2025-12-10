@@ -2,6 +2,22 @@
 #include <vector>
 using namespace std;
 
+// Leetcode 1: Two Sum
+
+// Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+// You may assume that each input would have exactly one solution, and you may not use the same element twice.
+// You can return the answer in any order.
+
+// Algorithm:-
+// 1. use two loops:
+//         outer loop i from 0 to n-1
+//         inner loop j from i+1 to n-1
+// 2. for each pair (i,j):
+//         if nums[i] + nums[j] == target:
+//                 return {i,j}                
+// 3. if no pair found, return {}
+// 4. exit   
+
 class Solution {
 public:
     vector<int> two_sum(vector<int> &nums,int target){
@@ -17,7 +33,6 @@ public:
         }
         return result; 
     }
-
 };
 
 int main(){
@@ -33,5 +48,6 @@ int main(){
     } else {
         cout << "No two sum solution found." << endl;
     }
-    return 0;
+
+return 0;
 }
