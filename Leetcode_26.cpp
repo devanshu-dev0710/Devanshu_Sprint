@@ -10,8 +10,8 @@ using namespace std;
 
 // Algorithm:-
 // 1. if the array is empty, return 0
-// 2. intialize idx = -1 (it keeps track of position for unique element)
-// 3. for i from 0 to n-1:
+// 2. intialize idx = 0 (it keeps track of position for unique element)
+// 3. for i from 1 to n-1:
 //         if nums[i] != nums[idx]:
 //                 increment idx = idx + 1
 //                 nums[idx] = nums[i]
@@ -21,8 +21,8 @@ class Solution{
 public:
     int remove_duplicates(vector<int> &nums){
         if (nums.empty()) return 0;
-        int idx = -1;
-        for(int i=0;i<nums.size();i++){
+        int idx = 0;
+        for(int i=1;i<nums.size();i++){
             if(nums[idx] != nums[i]){
                 idx++;
                 nums[idx] = nums[i];

@@ -2,3 +2,4 @@ I promise to solve 12 DSA problems by 20 December.
 Task 1: Setup Java Environment -DONE
 Task 2: Leetcode_1,121 -DONE
 Task 3: Leetcode_26,27,35 -DONE
+Task 4: Leetcode_344,242,414,189 -DONE
